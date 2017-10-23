@@ -1,0 +1,320 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 h2 h3 h4 h5 h6{
+    font-family: 'Montserrat', sans-serif;
+}
+
+a{
+    display: inline-block;
+    text-decoration: none;
+}
+
+.hero_area{
+    height: 630px;
+    width: auto;
+    position: relative;
+    z-index: 1;
+}
+
+.hero_area:before{
+    content: '';
+    position: absolute;
+    background: #2e6efe;
+    opacity: .9;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    
+}
+
+header{
+    padding: 30px 0 0;
+    position: relative;
+}
+
+header:before{
+    content: '';
+    position: absolute;
+    height: 1px;
+    width: 100%;
+    background: #fff;
+    bottom: -50px;
+    opacity: .2;
+}
+
+.logo{
+    text-align: right;
+}
+
+.navigation_bar{
+    text-align: center;
+}
+
+.menu{
+    
+}
+
+.menu li{
+    display: inline-block;
+    list-style: none;
+}
+
+.menu li a{
+    text-decoration: none;
+    padding: 0 20px;
+    line-height: 30px;
+    color: #ffffff;
+}
+
+
+.info{
+    position: relative;
+}
+
+.info:before{
+    content: '';
+    position: absolute;
+    height: 80px;
+    width: 1px;
+    background: #fff;
+    bottom: -17px;
+    left: 0;
+    opacity: .2; 
+}
+
+
+.info a i{
+    padding: 0 10px;
+}
+.info a{
+    color: #ffffff;
+    line-height: 33px;
+    padding: 0 10px;
+    text-align: left;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.home_area{
+    padding: 110px 0 0;
+    text-align: center;
+    color: #fff;
+}
+
+.name{
+    padding-bottom: 80px;
+}
+
+.title h1{
+    text-transform: uppercase;
+    font-size: 45px;
+    font-weight: 800;
+    color: #ffffff;
+}
+
+.title span{
+    position: relative;
+}
+
+.title span::before {
+    background: #ffffff;
+    bottom: -15px;
+    content: "";
+    height: 1px;
+    left: 50%;
+    opacity: .3;
+    position: absolute;
+    transform: translateX(-50%);
+    width: 40px;
+}
+
+
+.call a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.call a i{
+    padding:0 15px;
+}
+.button{
+    margin-top: 20px;
+    background: #ffffff;
+    border-radius: 2px;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+
+.button a{
+    color: #3434f7;
+    text-decoration: none;
+    padding: 15px 50px;
+}
+
+.circle{
+    margin: 180px 0;
+}
+
+
+.service_area{
+    text-align: center;
+    padding: 100px 0 0;
+}
+
+.service_inner h1{
+    margin-bottom: 120px;
+    position: relative;
+    font-weight: 800;
+    font-size: 35px;
+}
+
+.service_inner h1:before{
+    background: #1db1cc none repeat scroll 0 0;
+    bottom: -15px;
+    content: "";
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    transform: translateX(-50%);
+    width: 40px;
+    
+}
+
+.details a{
+    color: #000000;
+    text-decoration: none;
+}
+.details{
+    margin-bottom: 40px;
+}
+
+.details i{
+    padding: 0 10px;
+    line-height: 14px;
+}
+
+
+
+
+
+
+.slider_area{
+    height: 400px;
+    width: 100%;
+    background: #222222;
+    color: #ffffff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    
+}
+
+.star{
+    margin-bottom: 50px;
+    text-align: center;
+    
+}
+
+.slide{
+    text-align: center;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.owl-nav{
+    color: #ffffff;
+}
+
+.owl-nav .owl-next{
+    position: absolute;
+    right: 0;
+    font-size: 45px;
+    top: 50%;
+}
+
+.owl-nav .owl-prev{
+    position: absolute;
+    right: auto;
+    font-size: 45px;
+    top: 50%;
+}
+
+
+
+
+
+
+
+.about_area{
+    margin: 100px 0 0;
+    font-weight: 300;
+    font-size: 15px;
+}
+
+.content h3{
+    padding: 0 0 50px;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.about_area .content{
+    line-height: 28px;
+    font-size: 15px;
+}
+
+
+
+
+
+
+
+.tour_area{
+    height: 500px;
+    background: #f5f9f9;
+    padding: 100px 0 0;
+}
+
+
+.tour_area .content{
+    line-height: 28px;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.slider2 .owl-dots .owl-dot{
+    height: 13px;
+    width: 13px;
+    background: #c1c1c1;
+    margin: 5px;
+    border-radius: 50%;
+    display: inline-block;
+    bottom: 0px;
+}
+
+.slider2 .owl-dots{
+    position: absolute;
+    bottom: -60px;
+    left: 260px;
+}
+
+.slider2 .owl-dots .active{
+    background: #3bceaf;
+}
+
+
+
